@@ -45,7 +45,17 @@ names = [
 	'ETV',
 	'VTV',
 	'Royal HD',
-	'MNC'
+	'MNC',
+	'Ekh Oron',
+	'ZA',
+	'Like HD',
+	'HTV',
+	'TB1',
+	'4K KMG',
+	'OTV',
+	'TV10',
+	'Molor',
+	'SCH'
 ]
 urls = [
 	'http://103.60.97.11/e1/mnb_480p.stream/playlist.m3u8',
@@ -76,7 +86,17 @@ urls = [
 	'http://103.60.97.11/e1/etv.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/shine_delhii.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/royalhd.stream/playlist.m3u8',
-	'http://103.60.97.11/e1/mnc.stream/playlist.m3u8'
+	'http://103.60.97.11/e1/mnc.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/ehoron.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/za.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/like.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/htv.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/tv1.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/kmg1.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/otv.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/tv10.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/molor_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/sch.stream/playlist.m3u8'
 ]
 icons=[
 	'mnb_512x512.png',
@@ -107,7 +127,17 @@ icons=[
 	'etv_512x512.png',
 	'shine_delhii_512x512.png',
 	'royalhd_512x512.png',
-	'mnc_512x512.png'
+	'mnc_512x512.png',
+	'ehoron_512x512.png',
+	'za_512x512.png',
+	'like_512x512.png',
+	'htv_512x512.png',
+	'tv1_512x512.png',
+	'kmg1_512x512.png',
+	'otv_512x512.png',
+	'tv10_512x512.png',
+	'molor_512x512.png',
+	'sch_512x512.png'
 ]
 
 for name,url,icon in zip(names,urls,icons):
