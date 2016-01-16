@@ -17,7 +17,7 @@ print image_dir
 xbmcplugin.setContent(addon_handle, 'videos')
 
 names = [
-	'Mongol TV'
+	'Mongol TV',
 	'MNB 1',
 	'MNB 2',
 	'UBS',
