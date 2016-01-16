@@ -25,7 +25,19 @@ names = [
 	'Movie Box',
 	'Dream Box',
 	'Sport Box',
-	'C1'
+	'C1',
+	'Edu TV',
+	'NTV',
+	'TV5',
+	'Eagle News',
+	'SBN',
+	'NBS 1',
+	'TV8',
+	'TM',
+	'Suld TV',
+	'Mass TV',
+	'Fashion TV',
+	'TV9'
 ]
 urls = [
 	'http://103.60.97.11/e1/mnb_480p.stream/playlist.m3u8',
@@ -36,7 +48,19 @@ urls = [
 	'http://103.60.97.11/e1/moviebox_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/dreambox.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/sportbox_hd_480p.stream/playlist.m3u8',
-	'http://103.60.97.11/e1/c1_480p.stream/playlist.m3u8'
+	'http://103.60.97.11/e1/c1_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/edu_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/ntv_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/tv5.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/eagle_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/sbn.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/nbs.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/tv8.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/tm.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/suld_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/mass.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/ftv.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/tv9_480p.stream/playlist.m3u8'
 ]
 icons=[
 	'mnb_512x512.png',
@@ -47,8 +71,19 @@ icons=[
 	'moviebox_512x512.png',
 	'dreambox_512x512.png',
 	'sportbox_hd_512x512.png',
-	'c1_512x512.png'
-]
+	'c1_512x512.png',
+	'edu_512x512.png',
+	'ntv_512x512.png',
+	'tv5_512x512.png',
+	'eagle_512x512.png',
+	'sbn_512x512.png',
+	'nbs_512x512.png',
+	'tv8_512x512.png',
+	'tm_512x512.png',
+	'suld_512x512.png',
+	'mass_512x512.png',
+	'fashion_512x512.png',
+	'tv9_512x512.png',
 
 for name,url,icon in zip(names,urls,icons):
 	li = xbmcgui.ListItem(label=name, path=url)
