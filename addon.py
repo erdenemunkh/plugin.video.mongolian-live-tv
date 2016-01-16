@@ -24,7 +24,9 @@ names = [
 	'UBS Music',
 	'Movie Box',
 	'Dream Box',
-	'Sport Box'
+	'Sport Box',
+	'C1',
+	'Edu TV'
 ]
 urls = [
 	'http://103.60.97.11/e1/mnb_480p.stream/playlist.m3u8',
@@ -34,7 +36,9 @@ urls = [
 	'http://103.60.97.11/e1/ubs_music.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/moviebox_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/dreambox.stream/playlist.m3u8',
-	'http://103.60.97.11/e1/sportbox_hd_480p.stream/playlist.m3u8'
+	'http://103.60.97.11/e1/sportbox_hd_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/c1_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/edu_480p.stream/playlist.m3u8'
 ]
 icons=[
 	'mnb_512x512.png',
@@ -44,7 +48,9 @@ icons=[
 	'ubs_music_512x512.png',
 	'moviebox_512x512.png',
 	'dreambox_512x512.png',
-	'sportbox_hd_512x512.png'
+	'sportbox_hd_512x512.png',
+	'c1_512x512.png',
+	'edu_512x512.png'
 ]
 
 for name,url,icon in zip(names,urls,icons):
