@@ -33,7 +33,19 @@ names = [
 	'SBN',
 	'NBS 1',
 	'TV8',
-	'TM'
+	'TM',
+	'Suld TV',
+	'Mass TV',
+	'Fashion TV',
+	'TV9',
+	'Olloo TV',
+	'Seven Channel',
+	'Star HD',
+	'Eco Channel',
+	'ETV',
+	'VTV',
+	'Royal HD',
+	'MNC'
 ]
 urls = [
 	'http://103.60.97.11/e1/mnb_480p.stream/playlist.m3u8',
@@ -52,7 +64,19 @@ urls = [
 	'http://103.60.97.11/e1/sbn.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/nbs.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/tv8.stream/playlist.m3u8',
-	'http://103.60.97.11/e1/tm.stream/playlist.m3u8'
+	'http://103.60.97.11/e1/tm.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/suld_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/mass.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/ftv.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/tv9_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/olloo.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/seven.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/star.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/eco.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/etv.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/shine_delhii.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/royalhd.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/mnc.stream/playlist.m3u8'
 ]
 icons=[
 	'mnb_512x512.png',
@@ -71,7 +95,19 @@ icons=[
 	'sbn_512x512.png',
 	'nbs_512x512.png',
 	'tv8_512x512.png',
-	'tm_512x512.png'
+	'tm_512x512.png',
+	'suld_512x512.png',
+	'mass_512x512.png',
+	'fashion_512x512.png',
+	'tv9_512x512.png',
+	'olloo_512x512.png',
+	'seven_512x512.png',
+	'star_512x512.png',
+	'eco_512x512.png',
+	'etv_512x512.png',
+	'shine_delhii_512x512.png',
+	'royalhd_512x512.png',
+	'mnc_512x512.png'
 ]
 
 for name,url,icon in zip(names,urls,icons):
