@@ -25,7 +25,7 @@ names = [
 	'Movie Box',
 	'Dream Box',
 	'Sport Box',
-	'C1'""",
+	'C1',
 	'Edu TV',
 	'NTV',
 	'TV5',
@@ -55,7 +55,7 @@ names = [
 	'OTV',
 	'TV10',
 	'Молор',
-	'SCH'"""
+	'SCH'
 ]
 urls = [
 	'http://103.60.97.11/e1/mnb_480p.stream/playlist.m3u8',
@@ -66,7 +66,7 @@ urls = [
 	'http://103.60.97.11/e1/moviebox_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/dreambox.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/sportbox_hd_480p.stream/playlist.m3u8',
-	'http://103.60.97.11/e1/c1_480p.stream/playlist.m3u8'""",
+	'http://103.60.97.11/e1/c1_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/edu_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/ntv_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/tv5.stream/playlist.m3u8',
@@ -96,7 +96,7 @@ urls = [
 	'http://103.60.97.11/e1/otv.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/tv10.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/molor_480p.stream/playlist.m3u8',
-	'http://103.60.97.11/e1/sch.stream/playlist.m3u8'"""
+	'http://103.60.97.11/e1/sch.stream/playlist.m3u8'
 ]
 icons=[
 	'mnb_512x512.png',
@@ -107,7 +107,7 @@ icons=[
 	'moviebox_512x512.png',
 	'dreambox_512x512.png',
 	'sportbox_hd_512x512.png',
-	'c1_512x512.png'""",
+	'c1_512x512.png',
 	'edu_512x512.png',
 	'ntv_512x512.png',
 	'tv5_512x512.png',
@@ -137,7 +137,7 @@ icons=[
 	'otv_512x512.png',
 	'tv10_512x512.png',
 	'molor_512x512.png',
-	'sch_512x512.png'"""
+	'sch_512x512.png'
 ]
 
 for name,url,icon in zip(names,urls,icons):
