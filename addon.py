@@ -17,6 +17,7 @@ print image_dir
 xbmcplugin.setContent(addon_handle, 'videos')
 
 names = [
+	'Mongol TV'
 	'MNB 1',
 	'MNB 2',
 	'UBS',
@@ -58,6 +59,7 @@ names = [
 	'SCH'
 ]
 urls = [
+	'https://548142fad08b9.streamlock.net/live/smil:mongoltv.smil/chunklist_w1927444864_b1628000_slmn.m3u8',
 	'http://103.60.97.11/e1/mnb_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/mn2.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/ubs_480p.stream/playlist.m3u8',
@@ -99,6 +101,7 @@ urls = [
 	'http://103.60.97.11/e1/sch.stream/playlist.m3u8'
 ]
 icons=[
+	'mongol-tv.png',
 	'mnb_512x512.png',
 	'mn2_512x512.png',
 	'ubs_512x512.png',
