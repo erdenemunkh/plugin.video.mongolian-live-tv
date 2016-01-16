@@ -29,7 +29,9 @@ names = [
 	'Edu TV',
 	'NTV',
 	'TV5',
-	'Eagle News'
+	'Eagle News',
+	'SBN',
+	'NBS 1'
 ]
 urls = [
 	'http://103.60.97.11/e1/mnb_480p.stream/playlist.m3u8',
@@ -44,7 +46,9 @@ urls = [
 	'http://103.60.97.11/e1/edu_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/ntv_480p.stream/playlist.m3u8',
 	'http://103.60.97.11/e1/tv5.stream/playlist.m3u8',
-	'http://103.60.97.11/e1/eagle_480p.stream/playlist.m3u8'
+	'http://103.60.97.11/e1/eagle_480p.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/sbn.stream/playlist.m3u8',
+	'http://103.60.97.11/e1/nbs.stream/playlist.m3u8'
 ]
 icons=[
 	'mnb_512x512.png',
@@ -59,7 +63,9 @@ icons=[
 	'edu_512x512.png',
 	'ntv_512x512.png',
 	'tv5_512x512.png',
-	'eagle_512x512.png'
+	'eagle_512x512.png',
+	'sbn_512x512.png',
+	'nbs_512x512.png'
 ]
 
 for name,url,icon in zip(names,urls,icons):
