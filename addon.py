@@ -18,7 +18,7 @@ xbmcplugin.setContent(addon_handle, 'videos')
 
 names = [
 	'Mongol TV',
-	'Bloomberg TV'
+	'Bloomberg TV',
 	'MNB 1',
 	'MNB 2',
 	'UBS',
